@@ -41,6 +41,24 @@
   <link href="//cdn.bootcss.com/offline-js/0.7.14/themes/offline-language-english.css" rel="stylesheet">
   <link href="//cdn.bootcss.com/offline-js/0.7.14/themes/offline-theme-chrome.css" rel="stylesheet">
   
+  <!-捏脸小动画->
+  <link href="//cdn.bootcss.com/animate.css/3.5.0/animate.min.css" rel="stylesheet">
+  <style type="text/css">
+	.profilepic:hover {
+            background: white;
+            border: 5px solid #88acdb;
+            box-shadow: 0 0 1.5em #88acdb;
+            animation: profilepic .15s linear infinite alternate;
+            -webkit-animation: profilepic .15s linear infinite alternate; 
+        }
+	.profilepic {
+		-webkit-animation:rubberBand 1s;
+		-moz-animation:rubberBand 1s;
+		-ms-animation:rubberBand 1s;
+		animation:rubberBand 1s;
+	}
+  </style>
+  
   <script>
       var yiliaConfig = {
           fancybox: true,
