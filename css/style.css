@@ -2711,6 +2711,9 @@ pre .javascript .function {
   margin-top: 9px;
   float: left;
 }
+.tagcloud li {
+  list-style-type: none;
+}
 ::-webkit-scrollbar {
   width: 10px;
   height: 10px;
