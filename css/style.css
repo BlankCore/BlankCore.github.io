@@ -245,7 +245,7 @@ a {
   margin: 3px;
 }
 #container .left-col {
-  background: rgba(255,255,255,0.85);
+  background: rgba(255,255,255,0.8);
   width: 300px;
   position: fixed;
   opacity: 1;
@@ -275,7 +275,7 @@ a {
   position: absolute;
   right: 0;
   min-height: 100%;
-  background: rgba(255,255,255,0.8);
+  background: rgba(255,255,255,0.3);
   left: 300px;
   width: auto;
 }
@@ -1218,7 +1218,7 @@ color
   margin: 30px;
   margin-bottom: 5px;
   position: relative;
-  background: rgba(255,255,255,0.45);
+  background: rgba(255,255,255,0.8);
   opacity: 0;
   -webkit-transition: all 0.2s ease-in;
 }
@@ -1311,7 +1311,7 @@ color
   word-break: break-word;
 }
 .article-header {
-  border-left: 6px solid #eee;
+  border-left: 6px solid #fff;
   padding: 15px 8.2em 15px 25px;
 }
 .article-header:hover {
@@ -2178,6 +2178,7 @@ pre .javascript .function {
 #footer {
   font-size: 0.8em;
   font-family: "Microsoft YaHei", "Hiragino Sans GB", "WenQuanYi Micro Hei", sans-serif;
+  color: #000;
   text-shadow: 0 1px #fff;
   position: absolute;
   bottom: 20px;
